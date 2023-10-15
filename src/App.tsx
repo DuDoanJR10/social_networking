@@ -23,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<LoginPage />} />
           <Route path="/" element={<DefaultLayout />} />
+          <Route path="*" element={<h1>Page 404</h1>} />
         </Routes>
       </Router>
     </div>
