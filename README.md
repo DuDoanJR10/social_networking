@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,8 +35,20 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Library
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`customize-cra`, `react-app-rewired`: Ghì đề cấu hình Webpack thay vì phải npm eject.
+`babel-core`: Chuyển đổi ES6 về ES5.
+`babel-loader`: Cho phép chuyển các file JS sử dụng Babel & Webpack
+`babel-preset-env`: Giúp sử dụng JS mới nhất trên nhiều browser, support convert ES6, ES7, ES8, ES... về ES5.
+`babel-preset-react`: Convert JSX về JS.
+`css-loader`, `style-loader`: Giúp Webpack tải file .css dưới dạng module.
+`html-webpack-plugin`: Nhờ Webpack sau khi build ra file thì gắn vào file index.html.
+`webpack-dev-server`: Tạo server kết hợp Webpack và Node.
+`babel-plugin-module-resolver`: Đơn giản hóa đường dẫn khi sử dụng require/import.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Files
+
+`package.json`: File chứa thông tin project như name, version, library, ...  
+`.babelrc`: Cấu hình thư viện Babel. CRA không tự động load file này vào cấu hình Webpack.
+`tsconfig.json`: File cấu hình TypeScript.
