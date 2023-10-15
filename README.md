@@ -46,6 +46,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 `html-webpack-plugin`: Nhờ Webpack sau khi build ra file thì gắn vào file index.html.
 `webpack-dev-server`: Tạo server kết hợp Webpack và Node.
 `babel-plugin-module-resolver`: Đơn giản hóa đường dẫn khi sử dụng require/import.
+`normalize.css`: Reset CSS.
 
 ### Files
 
