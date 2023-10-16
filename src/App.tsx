@@ -18,7 +18,7 @@ const LoginPage = Loadable({
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-roboto">
       <Router>
         <Routes>
           <Route path="/login" element={<LoginPage />} />

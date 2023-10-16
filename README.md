@@ -47,9 +47,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 `webpack-dev-server`: Tạo server kết hợp Webpack và Node.
 `babel-plugin-module-resolver`: Đơn giản hóa đường dẫn khi sử dụng require/import.
 `normalize.css`: Reset CSS.
+`prettier-plugin-tailwindcss`: Kết hợp prettier và tailwind.
 
 ### Files
 
 `package.json`: File chứa thông tin project như name, version, library, ...  
 `.babelrc`: Cấu hình thư viện Babel. CRA không tự động load file này vào cấu hình Webpack.
 `tsconfig.json`: File cấu hình TypeScript.
+`tailwind.config.js`: File cấu hình Tailwind.
