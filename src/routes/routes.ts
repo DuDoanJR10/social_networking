@@ -2,6 +2,7 @@ import React from 'react';
 
 const Home = React.lazy(() => import('~/pages/Home/views/Home'));
 const Login = React.lazy(() => import('~/pages/Auth/views/Login'));
+const Register = React.lazy(() => import('~/pages/Auth/views/Register'));
 
 const routes = [
   {
@@ -13,6 +14,11 @@ const routes = [
     path: '/login',
     exact: true,
     element: Login,
+  },
+  {
+    path: '/register',
+    exact: true,
+    element: Register,
   },
 ];
 

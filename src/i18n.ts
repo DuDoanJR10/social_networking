@@ -13,14 +13,9 @@ const resources = {
 };
 
 i18n.use(initReactI18next).init({
-  debug: process.env.NODE_ENV === 'development',
-  fallbackLng: 'vi',
+  resources,
   lng: 'vi',
-  load: 'all',
-  ns: ['translation'],
-  defaultNS: 'translation',
-  resources: resources,
-  react: { wait: true },
+  fallbackLng: 'vi',
   interpolation: { escapeValue: false },
 });
 

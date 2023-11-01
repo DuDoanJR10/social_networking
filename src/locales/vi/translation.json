@@ -1,12 +1,14 @@
 {
   "common": {
-    "create": "Thêm mới",
+    "create": "Tạo",
     "edit": "Sửa",
     "delete": "Xóa",
     "save": "Lưu",
     "close": "Đóng",
     "yes": "Đồng ý",
     "cancel": "Hủy",
-    "overview": "Tổng quan"
+    "overview": "Tổng quan",
+    "login": "Đăng nhập",
+    "register": "Đăng ký"
   }
 }
