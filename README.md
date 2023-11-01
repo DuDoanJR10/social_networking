@@ -48,6 +48,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 `babel-plugin-module-resolver`: Đơn giản hóa đường dẫn khi sử dụng require/import.
 `normalize.css`: Reset CSS.
 `prettier-plugin-tailwindcss`: Kết hợp prettier và tailwind.
+`moment`: Định dạng ngày.
 
 ### Files
 

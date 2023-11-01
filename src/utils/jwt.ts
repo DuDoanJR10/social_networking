@@ -1,4 +1,4 @@
-import { getCookie } from '~/helpers/funcs';
+import { getCookie } from '~/helpers/cookie';
 import { APP_CONFIG } from './constant';
 
 export const getAccessToken = () => {
