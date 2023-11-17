@@ -7,7 +7,7 @@ const loading = () => (
 );
 
 const DefaultLayout = Loadable({
-  loader: () => import('./layouts/DefaultLayout'),
+  loader: () => import('./layouts/views/DefaultLayout'),
   loading,
 });
 
@@ -23,12 +23,12 @@ const RegisterPage = Loadable({
 
 function App() {
   return (
-    <div className="App font-roboto">
+    <div className="App min-h-screen font-roboto">
       <Router>
         <Routes>
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
-          <Route path="/" element={<DefaultLayout />} />
+          <Route path="/*" element={<DefaultLayout />} />
           <Route path="*" element={<h1>Page 404</h1>} />
         </Routes>
       </Router>

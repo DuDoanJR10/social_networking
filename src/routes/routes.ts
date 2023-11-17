@@ -1,24 +1,26 @@
 import React from 'react';
+import configs from '../configs';
+export interface Route {
+  path: string;
+  exact: boolean;
+  element: React.LazyExoticComponent<() => JSX.Element>;
+  footer?: boolean;
+}
 
 const Home = React.lazy(() => import('~/pages/Home/views/Home'));
-const Login = React.lazy(() => import('~/pages/Auth/views/Login'));
-const Register = React.lazy(() => import('~/pages/Auth/views/Register'));
+const User = React.lazy(() => import('~/pages/User/views/User'));
 
-const routes = [
+const routes: Route[] = [
   {
-    path: '/',
+    path: configs.routes.home,
     exact: true,
     element: Home,
   },
   {
-    path: '/login',
+    path: configs.routes.user,
     exact: true,
-    element: Login,
-  },
-  {
-    path: '/register',
-    exact: true,
-    element: Register,
+    element: User,
+    footer: true,
   },
 ];
 

@@ -10,5 +10,17 @@
     "overview": "Tổng quan",
     "login": "Đăng nhập",
     "register": "Đăng ký"
+  },
+  "sider": {
+    "home": "Trang chủ",
+    "search": "Tìm kiếm",
+    "explore": "Khám phá",
+    "reels": "Reels",
+    "messages": "Tin nhắn",
+    "notifications": "Thông báo",
+    "create": "Tạo",
+    "profile": "Trang cá nhân",
+    "threads": "Threads",
+    "more": "Xem thêm"
   }
 }
