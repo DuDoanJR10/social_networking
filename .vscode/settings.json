@@ -3,6 +3,7 @@
         "antd",
         "tailwindcss",
         "roboto",
+        "Sider",
     ],
     "editor.formatOnSave": true,
 }
