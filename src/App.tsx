@@ -16,12 +16,18 @@ const LoginPage = Loadable({
   loading,
 });
 
+const RegisterPage = Loadable({
+  loader: () => import('./pages/Auth/views/Register'),
+  loading,
+});
+
 function App() {
   return (
     <div className="App font-roboto">
       <Router>
         <Routes>
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
           <Route path="/" element={<DefaultLayout />} />
           <Route path="*" element={<h1>Page 404</h1>} />
         </Routes>
